@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*----------------------------------------
+General
+----------------------------------------*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: sans-serif;
+  color: #707070
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.section-title .en {
+  display: block;
+  font-size: 40px;
+}
+.section-title .ja {
+  display: block;
+  font-size: 14px;
+}
+
+/*----------------------------------------
+Header
+----------------------------------------*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 20px;
+}
+header .logo {
+  max-width: 190px;
+  line-height: 0;
+}
+header .logo a {
+  display: block;
+}
+
+header .navi {
+  display: flex;
+  align-items: center;
+}
+header .navi li {
+  font-size: 14px;
+  margin-left: 40px;
+}
+/*----------------------------------------
+Main
+----------------------------------------*/
+main.wrapper {
+  padding: 0 20px;
+}
+/*----------------------
+Main-visual
+----------------------*/
+.main-visual {
+  margin-bottom: 80px;
+}
+/*----------------------
+Introduction
+----------------------*/
+.introduction {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.introduction .catchphrase {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.introduction .text {
+  font-size: 14px;
+}
+/*----------------------
+Profile
+----------------------*/
+#profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+#profile .img {
+  width: 50%;
+  margin-left: 80px;
+}
+#profile .detail {
+  width: 50%;
+  padding-left: 80px;
+}
+#profile .detail p {
+  font-size: 14px;
+  line-height: 2;
+}
+/*----------------------
+Works
+----------------------*/
+#works {
+    margin-bottom: 120px;
+}
+#works .works-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+#works .works-list li {
+    width: 32%;
+    margin: 0 2% 2% 0;
+}
+#works .works-list li:nth-child(3) {
+    margin-right: 0;
+}
+/*----------------------
+Footer
+----------------------*/
+footer {
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.copyright {
+    font-size: 1em;
+}
